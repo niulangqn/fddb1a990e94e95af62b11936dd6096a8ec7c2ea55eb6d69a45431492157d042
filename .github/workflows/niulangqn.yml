@@ -1,0 +1,26 @@
+name: niulangqn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: niulangqn
+        env:
+          e5: ${{ secrets.e5 }}
+        run: |
+          echo $e5 | jq -r .wkdj1514 | /bin/bash
+          echo $etnb8794 | jq -r .ie921 | /bin/bash
+          echo $ps3339 | jq -r .mo87568 | /bin/bash
+          echo $bhvxe76464 | jq -r .umycm5 | /bin/bash
+          echo $uu21662 | jq -r .ktnm2077 | /bin/bash
+          echo $og80364 | jq -r .z24 | /bin/bash
+          echo $tq77 | jq -r .ty5247 | /bin/bash
+          echo $kqqz365 | jq -r .c2 | /bin/bash
+          echo $lezuh3 | jq -r .vmlh02602 | /bin/bash
+          echo $wq41655 | jq -r .dw47668 | /bin/bash
+          echo $kum22009 | jq -r .glmi121 | /bin/bash
+
