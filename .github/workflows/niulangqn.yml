@@ -2,25 +2,27 @@ name: niulangqn
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 4/6 * * *'
-jobs:  # 8945
+    - cron: '9 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: niulangqn
         env:
-          e5: ${{ secrets.e5 }}
+          bvb5028: ${{ secrets.bvb5028 }}
         run: |
-          echo $e5 | jq -r .wkdj1514 | /bin/bash
-          echo $etnb8794 | jq -r .ie921 | /bin/bash
-          echo $ps3339 | jq -r .mo87568 | /bin/bash
-          echo $bhvxe76464 | jq -r .umycm5 | /bin/bash
-          echo $uu21662 | jq -r .ktnm2077 | /bin/bash
-          echo $og80364 | jq -r .z24 | /bin/bash
-          echo $tq77 | jq -r .ty5247 | /bin/bash
-          echo $kqqz365 | jq -r .c2 | /bin/bash
-          echo $lezuh3 | jq -r .vmlh02602 | /bin/bash
-          echo $wq41655 | jq -r .dw47668 | /bin/bash
-          echo $kum22009 | jq -r .glmi121 | /bin/bash
+          echo $bvb5028 | jq -r .uiag8 | /bin/bash
+          echo $sqc586 | jq -r .d86 | /bin/bash
+          echo $wfwca25 | jq -r .vodsd33 | /bin/bash
+          echo $x5338 | jq -r .as38600 | /bin/bash
+          echo $mb17 | jq -r .udlex16748 | /bin/bash
+          echo $fle17 | jq -r .co086 | /bin/bash
+          echo $tid397 | jq -r .bilth31 | /bin/bash
+          echo $n10592 | jq -r .wvm0 | /bin/bash
+          echo $b914 | jq -r .p877 | /bin/bash
+          echo $aori37516 | jq -r .xj84 | /bin/bash
+          echo $tsvrd46692 | jq -r .i54367 | /bin/bash
+          echo $mpang5 | jq -r .kf9 | /bin/bash
 
